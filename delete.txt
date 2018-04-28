@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS Pattern;
+DROP TABLE IF EXISTS Applicability;
+DROP TABLE IF EXISTS Description;
+DROP TABLE IF EXISTS Key_point ;
+DROP TABLE IF EXISTS Content_Key_Point ;
+DROP TABLE IF EXISTS Participant ;

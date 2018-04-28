@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Design Pattern</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="about">A propos</string>
+    <string name="maj">Mise à jour</string>
+	<string name="diagram">Diagramme de classe</string>
+	<string name="description">Description</string>
+	<string name="keypoint">Points forts</string>
+	<string name="participants">Participants au patron</string>
+	<string name="exception">Une erreur est survenue</string>
+	<string name="idea">Idée</string>
+	<string name="findMe">Pour me retrouver :</string>
+	<string name="welcome">Bienvenue</string>
+</resources>

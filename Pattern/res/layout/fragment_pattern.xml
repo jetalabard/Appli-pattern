@@ -1,0 +1,103 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_detail_pattern"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blanc"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/intitule1"
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/diagram"
+            android:textStyle="normal" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:id="@+id/layoutImage"
+            android:layout_below="@id/intitule1">
+
+           
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/intitule2"
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layoutImage"
+            android:text="@string/description"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/intitule2"
+            android:layout_margin="10dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/intent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/type"
+            android:layout_margin="10dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/applicability"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/intent"
+            android:layout_margin="10dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/intitule3"
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/applicability"
+            android:text="@string/keypoint"
+            android:textStyle="normal"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/keypoint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/intitule3"
+            android:layout_margin="10dp"
+            android:textStyle="normal"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/intitule4"
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/keypoint"
+            android:text="@string/participants"
+            android:textStyle="normal"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/participants"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/intitule4"
+            android:layout_margin="10dp"
+            android:textStyle="normal"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</ScrollView>

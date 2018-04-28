@@ -1,0 +1,5 @@
+[
+  {
+  	"requete":"CREATE TABLE Applicability (id INTEGER PRIMARY KEY , CONTENT VARCHAR, ID_DESCRIPTION INTEGER );"
+  }
+]
